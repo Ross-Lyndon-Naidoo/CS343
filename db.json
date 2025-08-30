@@ -3,9 +3,8 @@
     {
       "id": "u1",
       "userID": "1",
-      "firstname": "Changed",
-      "lastname": "Naidu",
-      "profilePictureURL": "icon.com",
+      "firstname": "Ross Lyndon",
+      "lastname": "Naidoo",
       "interests": "Valorant",
       "graduationPlans": "job"
     }
@@ -14,26 +13,26 @@
     {
       "id": "p1",
       "userID": "1",
-      "title": "Blog #1",
-      "body": "My first blog post!",
-      "date": "2000-1-1",
-      "tags": ["t1, t2, t3"],
-      "attachmentID": "1"
+      "title": "New year",
+      "body": "Happy new year",
+      "date": "2025-01-01T00:00:00.000Z",
+      "tags": [
+        { "tag": "personal" }
+      ],
+      "attachmentID": ["a1", "3"]
     }
   ],
   "attachments": [
     {
       "id": "a1",
       "attachmentID": "1",
-      "url":"www"
+      "url": "www"
     }
   ],
-  "tags":[
+  "tags": [
     {
-      "id":"1",
-      "tagID": "t1",
-      "tagText": "Code"
+      "id": "t1",
+      "tagText": "personal"
     }
   ]
 }
-
